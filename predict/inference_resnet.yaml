@@ -1,0 +1,9 @@
+video_path: /works/Anormal_Unet/AIGC_data_utils/set01_drone01.mp4
+# snap_shot_path: /works/Anormal_Unet/AIGC_test_sample/1_set01_drone01_ss_02385_07/crop.jpg
+snap_shot_path: /works/Anormal_Unet/AIGC_data_utils/set01_rescue_image01.jpg
+tmp_path: /works/Anormal_Unet/AIGC_data_utils/tmp_rescue01_new
+model_path: /works/Anormal_Unet/checkpoints/lgtest_efficientnetb8_400.pth
+scale: 512
+threshold: 0.8
+bgr2rgb: True
+save_frame_count: 15

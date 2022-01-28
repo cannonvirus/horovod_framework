@@ -1,0 +1,6 @@
+normal_path: /works/Unet_data/normal_s128_t4
+anormal_path: /works/Unet_data/mount_s128_t4_refine_genfinish
+out_path: "/works/Anormal_Unet/origin_data/ab_layer_trainset_gen"
+normal_sampling: 20000
+anormal_sampling: -1
+only_normal: False

@@ -1,0 +1,6 @@
+unet_data_path: /works/Unet_data/mount_s128_t4_refine
+output_path: /works/Unet_data/mount_s128_t4_refine_genfinish
+max_copy_img: 20
+original_copy: True
+max_algorithm: 4
+option_algorithm: True

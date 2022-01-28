@@ -1,0 +1,6 @@
+background_path: "/works/Anormal_Unet/save_img_crop/1_set01_drone01_05040/origin.jpg"
+crop_path: "/works/Anormal_Unet/save_img_crop/1_set01_drone01_05040/003.jpg"
+model_path: "/works/Anormal_Unet/checkpoints/Cow_epoch6000.pth"
+scale: 240
+threshold: 0.5
+bgr2rgb: True

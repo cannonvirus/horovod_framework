@@ -1,0 +1,30 @@
+# 모델 불러오기
+freezing_mode: False
+load_pretrain: False # "/works/Anormal_Unet/checkpoints/Point_Detect_ver2_double_800.pth" or False
+resnet_pretrain_on: True
+model_struct: Resnet50
+
+# 환경설정
+horovod: true # multi-gpu train
+amp: True # float32 -> float16
+num_worker: 4 # GPU 절반
+gpu_number: 8
+
+# 모델 저장
+save_checkpoints: True
+save_model_epoch: 50
+checkpoint_path: './checkpoints/'
+
+# 데이터 parameter
+input_img_path: /works/Anormal_Unet/AIGC_train_data_o512_c64
+validation_ratio: 0.1
+
+# 모델 parameter
+epoch: 6000
+batch_size: 8
+input_img_number: 1
+scale: 512
+scale_sub: 64
+loss_func: CROSS # MSE, BCE, Focal
+learning_rate: 0.0001
+input_time_series: 0
